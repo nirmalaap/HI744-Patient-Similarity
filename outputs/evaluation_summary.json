@@ -1,0 +1,20 @@
+{
+  "tfidf": {
+    "mean_precision_5": 0.007833080778645531,
+    "mean_recall_5": 0.03360817032231356,
+    "patients_in_precision_average": 8579,
+    "patients_in_recall_average": 4802,
+    "patients_excluded_from_recall": 3777
+  },
+  "bm25": {
+    "mean_precision_5": 0.006177876209348409,
+    "mean_recall_5": 0.02757970314196886,
+    "patients_in_precision_average": 8579,
+    "patients_in_recall_average": 4802,
+    "patients_excluded_from_recall": 3777
+  },
+  "comparison": {
+    "mean_top5_overlap": 0.5591560787970626,
+    "overlap_definition": "intersection of TF-IDF and BM25 top-5 divided by 5"
+  }
+}
